@@ -213,7 +213,7 @@ def run_one_simulation(steps =5000):
 	"""
 	# The whole traci-sumo interface thing.
 
-	sumoBinary = checkBinary("sumo") # Computer Specific.
+	sumoBinary = checkBinary("sumo-gui") # Computer Specific.
 	sumoConfig = "LA.sumo.cfg" # Computer Specific.
         
 	traci.start([sumoBinary, "-c", sumoConfig])
